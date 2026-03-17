@@ -9,7 +9,7 @@ Site_lon=13.5651
 
 let Flux_start=1996
 let Flux_end=2014
-let Flux_nyr=${Flux_start}-${Flux_end}+1
+let Flux_nyr=${Flux_end}-${Flux_start}+1
 
 Surf_path=$(ls ${CASEROOT}/inputdata/surfdata_${Site}_hist_2000_16pfts*.nc | head -n 1)
 
@@ -26,7 +26,7 @@ AD_RESTART="${AD_REST_DIR}/${Site}_FLUX_FS.clm2.r.0101-01-01-00000.nc"
 
 ./xmlchange DEBUG=FALSE
 ./xmlchange STOP_OPTION=nyears
-./xmlchange STOP_N=19
+./xmlchange STOP_N=${Flux_nyr}
 
 ./xmlchange RESUBMIT=0
 ./xmlchange RUN_TYPE="startup"
