@@ -4,6 +4,7 @@ Codes and documents generated for the PARTIFLUX model and flux working groups
 ## For the Model_Project
 Code scripts are developed for NCAR's Derecho supercomputer
 
+## Check the wiki page for step-by-step instructions
 Start with Workflow_JieH, while referring to DE-Tha_"AD or FN or Transient"_FLUXNET scripts for bash commands
 regarding xmlchange and user namelist edits
 
