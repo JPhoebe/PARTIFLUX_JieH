@@ -2,7 +2,7 @@
 Codes and documents generated for the PARTIFLUX model and flux working groups
 
 ## For the Model_Project
-Code scripts are developed for NCAR's Derecho supercomputer
+Code scripts are developed for NCAR's Derecho supercomputer, for CESM version of `ctsm5.4.021`.
 
 ## Check the wiki page for step-by-step instructions
 Start with Workflow_JieH, while referring to DE-Tha_"AD or FN or Transient"_FLUXNET scripts for bash commands
