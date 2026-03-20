@@ -14,7 +14,7 @@ Surf_path=$(ls ${CASEROOT}/inputdata/surfdata_${Site}_hist_2000_16pfts*.nc | hea
 
 $CTSMROOT/cime/scripts/create_newcase \
  --case ${CASEROOT}/${Site}_FLUX \
- --compset I2000Clm50BgcCruRs \
+ --compset 2000_DATM%1PT_CLM60%BGC_SICE_SOCN_SROF_SGLC_SWAV_SESP \ # updated
  --res CLM_USRDAT \
  --run-unsupported 
 
