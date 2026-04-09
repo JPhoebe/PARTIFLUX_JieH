@@ -18,7 +18,7 @@ Code scripts are developed for NCAR's Derecho supercomputer, for CTSM version of
   `./bin/git-fleximod update`  
   The git fleximod script is a git extension that will populate the cesm directory with the relevant versions of each of the components along with the CIME infrastructure code.
 - Activate python environment
-  `module load conda` 
+  `module load conda`   
   `./py_env_create`  
   `conda activate ctsm_pylib`
 
