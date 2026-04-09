@@ -8,16 +8,16 @@ Code scripts are developed for NCAR's Derecho supercomputer, for CTSM version of
 - Create new directory for CTSM code  
   `cd /glade/u/home/$User`  
   `mkdir my_codes`  
-- Go to the code directory
+- Go to the code directory  
   `cd /glade/u/home/$User/my_codes`  
-- Download the CTSM code to it's specific folder
+- Download the CTSM code to it's specific folder  
   `git clone https://github.com/ESCOMP/CTSM.git ctsm_$Version`  
   `cd ctsm_$Version`  
   `git checkout ctsm5.4.021`  
-- Update the dependencies
+- Update the dependencies  
   `./bin/git-fleximod update`  
   The git fleximod script is a git extension that will populate the cesm directory with the relevant versions of each of the components along with the CIME infrastructure code.
-- Activate python environment
+- Activate python environment  
   `module load conda`   
   `./py_env_create`  
   `conda activate ctsm_pylib`
