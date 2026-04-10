@@ -39,3 +39,6 @@ After AD and final spin ups, remember to check whether soil carbon and nitrogen 
   Ensure you have X11 forwarding enabled, then
   `module load ncview`
   `ncview *clm2.h0a.*.nc`
+- The third way is to
+  upload the jupyter notebook https://github.com/JPhoebe/PARTIFLUX_JieH/blob/36d90c21a912276d0eeba2686c5d9f67e07fe479/Model_Project/Spinup_check.ipynb to your NCAR JupyterHub and
+  plot the time series of carbon and nitrogen pools.
